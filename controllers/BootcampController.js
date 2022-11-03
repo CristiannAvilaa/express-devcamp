@@ -3,7 +3,7 @@ const sequelize = require('../config/seq')
 //Dtatypes de Sequelize
 const{ DataTypes } = require('sequelize')
 //El modelo
-const BootcampModel = require('../models/Bootcamp')
+const BootcampModel = require('../models/bootcamps')
 
 //Crear la entidad
 const Bootcamp = BootcampModel(sequelize, DataTypes)
